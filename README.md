@@ -15,6 +15,11 @@ HAR export as needed. To ensure that API is properly exposed into the
 page content you need to yet set the following preference
 in your Firefox profile:
 
+`extensions.firebug.netexport.secretToken`
+
+To start automated collecting of HTTP data you need to set
+the following preference:
+
 `devtools.netmonitor.har.enableAutoExportToFile`
 
 The script on your page can look like as follows:
