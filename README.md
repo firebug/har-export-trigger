@@ -6,7 +6,7 @@ from within a page.
 License
 -------
 HAR Export Trigger is free and open source software distributed under the
-[BSD License](https://github.com/firebug/firequery/blob/master/license.txt).
+[BSD License](https://github.com/firebug/har-export-trigger/blob/master/license.txt).
 
 Further Resources
 -----------------

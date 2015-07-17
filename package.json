@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/firebug/har-export-trigger/issues"
   },
-  "preferences-branch": "devtools.netmonitor.har",
+  "preferences-branch": "netmonitor.har",
   "preferences": [{
     "name": "contentAPIToken",
     "title": "Content API Token",
