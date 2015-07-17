@@ -13,7 +13,7 @@
   "homepage": "https://github.com/firebug/har-export-trigger/wiki",
   "forum": "https://groups.google.com/forum/#!forum/firebug",
   "engines": {
-    "firefox": ">=39.0"
+    "firefox": ">=42.0"
   },
   "license": "BSD License",
   "repository": {
