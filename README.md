@@ -38,6 +38,16 @@ HAR.triggerExport(options).then(result => {
 });
 ```
 
+Build & Run HAR Export Trigger
+------------------------------
+Following instructions describe how to build the extension
+from the source and run on your machine.
+
+1. Install JPM: `npm install jpm -g` (read more about [installing jpm](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#Installation))
+2. Get the source: `git clone https://github.com/firebug/har-export-trigger.git`
+3. Install required NPM modules: `npm install`
+4. Run `jpm run -b nightly` in the source directory (learn more about [jpm commands](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#Command_reference))
+
 Further Resources
 -----------------
 * HAR Spec: https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HAR/Overview.html
