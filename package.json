@@ -8,7 +8,7 @@
   "icon": "chrome://harexporttrigger/skin/icon-16.png",
   "author": "Firebug Working Group",
   "contributors": [
-    "Jan Odvarko (Mozilla Corp.)",
+    "Jan Odvarko (Mozilla Corp.)"
   ],
   "homepage": "https://github.com/firebug/har-export-trigger/wiki",
   "forum": "https://groups.google.com/forum/#!forum/firebug",
