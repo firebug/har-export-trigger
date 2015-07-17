@@ -1,0 +1,37 @@
+{
+  "title": "HAR Export Trigger",
+  "name": "harexporttrigger",
+  "version": "0.5.0-beta.0",
+  "id": "harexporttrigger@getfirebug.com",
+  "description": "Trigger HAR export any time directly from within a page",
+  "main": "index.js",
+  "icon": "chrome://harexporttrigger/skin/icon-16.png",
+  "author": "Firebug Working Group",
+  "contributors": [
+    "Jan Odvarko (Mozilla Corp.)",
+  ],
+  "homepage": "https://github.com/firebug/har-export-trigger/wiki",
+  "forum": "https://groups.google.com/forum/#!forum/firebug",
+  "engines": {
+    "firefox": ">=39.0"
+  },
+  "license": "BSD License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firebug/har-export-trigger.git"
+  },
+  "dependencies": {
+    "firebug.sdk": "0.x"
+  },
+  "bugs": {
+    "url": "https://github.com/firebug/har-export-trigger/issues"
+  },
+  "preferences-branch": "devtools.netmonitor.har",
+  "preferences": [{
+    "name": "contentAPIToken",
+    "title": "Content API Token",
+    "description": "Set to true to expose HAR trigger API into the content",
+    "type": "string",
+    "value": ""
+  }]
+}
