@@ -1,0 +1,3 @@
+content harexporttrigger               chrome/content/
+skin    harexporttrigger               classic/1.0   chrome/skin/classic/shared/
+locale  harexporttrigger en-US         chrome/locale/en-US/
