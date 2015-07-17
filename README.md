@@ -13,7 +13,7 @@ How To Use
 This extension exposes HAR API into the content allowing pages to trigger
 HAR export as needed. To ensure that API is properly exposed into the
 page content you need to yet set the following preference
-in your Firefox profile:
+in your Firefox profile (any string value passed into API calls):
 
 `extensions.netmonitor.har.contentAPIToken`
 
