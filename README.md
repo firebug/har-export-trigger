@@ -8,6 +8,10 @@ License
 HAR Export Trigger is free and open source software distributed under the
 [BSD License](https://github.com/firebug/har-export-trigger/blob/master/license.txt).
 
+Requirements
+------------
+You need Firefox 42+ to run this extension.
+
 How To Use
 ----------
 This extension exposes HAR API into the content allowing pages to trigger
