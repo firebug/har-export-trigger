@@ -42,6 +42,8 @@ HAR.triggerExport(options).then(result => {
 });
 ```
 
+Check out [a test page](http://janodvarko.cz/har/tests/har-export-trigger/har-export-api.html)
+
 Build & Run HAR Export Trigger
 ------------------------------
 Following instructions describe how to build the extension
