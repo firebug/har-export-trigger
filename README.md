@@ -1,8 +1,14 @@
 # HAR Export Trigger
-Firefox plugin for HAR (HTTP Archive) export. Built on top of native
-developer tools in Firefox. Allows triggering HAR export directly
-from within a page. Can be used together with e.g. Selenium to
-implement automated HAR export robot.
+Firefox add-on for automated HAR (HTTP Archive) export. This add-on is built on
+top of native developer tools in Firefox and allows automated export
+of all collected and computed data from the <strong>Network</strong> panel.
+Automation can be implemented on top of HAR API that are exposed directly
+to the page.
+It can be also used together with e.g. Selenium to implement automated HAR
+export robots. Firebug is not needed for this add-on.
+
+Read more about [HAR](http://www.softwareishard.com/blog/har-12-spec/) format
+(based on JSON).
 
 
 License
@@ -62,6 +68,9 @@ from the source and run on your machine.
 
 Further Resources
 -----------------
+* Home Page: http://www.softwareishard.com/blog/har-export-trigger/
 * HAR Spec: https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HAR/Overview.html
 * HAR Spec (original): http://www.softwareishard.com/blog/har-12-spec/
-* DevTools Extension Examples: https://github.com/mozilla/addon-sdk/tree/devtools/examples
+* HTTP Archive Viewer: http://www.softwareishard.com/blog/har-viewer/
+* HAR Discussion Group: http://groups.google.com/group/http-archive-specification/
+
