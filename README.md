@@ -1,7 +1,9 @@
 # HAR Export Trigger
 Firefox plugin for HAR (HTTP Archive) export. Built on top of native
 developer tools in Firefox. Allows triggering HAR export directly
-from within a page.
+from within a page. Can be used together with e.g. Selenium to
+implement automated HAR export robot.
+
 
 License
 -------
