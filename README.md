@@ -12,6 +12,10 @@ Requirements
 ------------
 You need Firefox 42+ to run this extension.
 
+Download
+--------
+See the latest [release](https://github.com/firebug/har-export-trigger/releases)
+
 How To Use
 ----------
 This extension exposes HAR API into the content allowing pages to trigger
@@ -31,7 +35,7 @@ The script on your page can look like as follows:
 ```
 var options = {
   token: "test",    // Value of the token in your preferences
-  getData: true,    // Set to true if you want to also get HAR data
+  getData: true,    // Set to true if you want to also get HAR data as a string in the callback
   title: "my custom title",  // Title used for the HAR file
   jsonp: false,     // Set to true if you want HARP
   fileName: "my test har file %Y, %H:%M:%S"  // Name of the file
