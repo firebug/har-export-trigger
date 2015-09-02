@@ -1,7 +1,7 @@
 {
   "title": "HAR Export Trigger",
   "name": "harexporttrigger",
-  "version": "0.5.0-beta.3",
+  "version": "0.5.0-beta.4",
   "id": "harexporttrigger@getfirebug.com",
   "description": "Trigger HAR export any time directly from within a page",
   "main": "index.js",
