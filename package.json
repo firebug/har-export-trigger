@@ -33,5 +33,11 @@
     "description": "Set to true to expose HAR trigger API into the content",
     "type": "string",
     "value": ""
+  }, {
+    "name": "enableAutomation",
+    "title": "Enable automatic collecting of HAR data",
+    "description": "Flip this option to enable automatic collecting of HAR data, so HAR export can be triggered when necessary",
+    "type": "bool",
+    "value": false
   }]
 }
