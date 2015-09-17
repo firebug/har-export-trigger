@@ -54,6 +54,8 @@ HAR.triggerExport(options).then(result => {
 });
 ```
 
+Note that the developer Toolbox needs to be opened (press F12)
+
 Check out [a test page](http://janodvarko.cz/har/tests/har-export-trigger/har-export-api.html)
 
 Build & Run HAR Export Trigger
