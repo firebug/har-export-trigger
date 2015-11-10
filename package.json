@@ -34,6 +34,12 @@
     "type": "string",
     "value": ""
   }, {
+    "name": "autoConnect",
+    "title": "Automatically connect to the backend",
+    "description": "Automatically connect to the backend, the Toolbox doesn't have to be open.",
+    "type": "bool",
+    "value": false
+  }, {
     "name": "enableAutomation",
     "title": "Enable automatic collecting of HAR data",
     "description": "Flip this option to enable automatic collecting of HAR data, so HAR export can be triggered when necessary",
