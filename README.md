@@ -29,24 +29,26 @@ How To Use
 This extension exposes HAR API into the content allowing pages to trigger
 HAR export as needed. To ensure that API is properly exposed into the
 page content you need to yet set the following preference
-in your Firefox profile (any string value passed into API calls):
+in your Firefox profile (any string value that is passed into API calls):
 
 `extensions.netmonitor.har.contentAPIToken`
 
 To start automated collecting of HTTP data you need to set
-the following preference:
+the following preference to true:
 
-`devtools.netmonitor.har.enableAutoExportToFile`
+`extensions.netmonitor.har.enableAutomation`
 
-The script on your page can look like as follows:
+You might also want to also set the following preference to true,
+so the developer Toolbox doesn't have to be opened.
+
+`extensions.netmonitor.har.autoConnect` to true,
+
+An example script on your page can look like as follows:
 
 ```
 var options = {
-  token: "test",    // Value of the token in your preferences
-  getData: true,    // True if you want to also get HAR data as a string in the callback
-  title: "my custom title",  // Title used for the HAR file
-  jsonp: false,     // Set to true if you want HARP
-  fileName: "my test har file %Y, %H:%M:%S"  // Name of the file
+  token: "test",      // Value of the token in your preferences
+  getData: true,      // True if you want to get HAR data as a string
 };
 
 HAR.triggerExport(options).then(result => {
@@ -54,9 +56,8 @@ HAR.triggerExport(options).then(result => {
 });
 ```
 
-Note that the developer Toolbox needs to be opened (press F12)
-
 Check out [a test page](http://janodvarko.cz/har/tests/har-export-trigger/har-export-api.html)
+See more [HAR API examples](https://github.com/firebug/har-export-trigger/wiki/Examples)
 
 Build & Run HAR Export Trigger
 ------------------------------
