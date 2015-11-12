@@ -58,8 +58,8 @@ HAR.triggerExport(options).then(result => {
 });
 ```
 
-Check out [a test page](http://janodvarko.cz/har/tests/har-export-trigger/har-export-api.html)
-See more [HAR API examples](https://github.com/firebug/har-export-trigger/wiki/Examples)
+* Check out [a test page](http://janodvarko.cz/har/tests/har-export-trigger/har-export-api.html)
+* See more [HAR API examples](https://github.com/firebug/har-export-trigger/wiki/Examples)
 
 Build & Run HAR Export Trigger
 ------------------------------
