@@ -41,7 +41,9 @@ the following preference to true:
 You might also want to also set the following preference to true,
 so the developer Toolbox doesn't have to be opened.
 
-`extensions.netmonitor.har.autoConnect` to true,
+`extensions.netmonitor.har.autoConnect`
+
+---
 
 An example script on your page can look like as follows:
 
