@@ -38,7 +38,7 @@ the following preference to true:
 
 `extensions.netmonitor.har.enableAutomation`
 
-You might also want to also set the following preference to true,
+You might also want to set the following preference to true,
 so the developer Toolbox doesn't have to be opened.
 
 `extensions.netmonitor.har.autoConnect`
