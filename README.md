@@ -1,4 +1,11 @@
 # HAR Export Trigger
+
+**On November 14, with the launch of Firefox Quantum (AKA 57), support for old school extensions will stop in Firefox. It means that this extension will no longer work.
+
+New version of this extension built on top of WebExtensions API is available here:
+[https://github.com/devtools-html/har-export-trigger](https://github.com/devtools-html/har-export-trigger)**
+
+
 Firefox add-on improving automated HAR (HTTP Archive) export of collected
 data from the Network panel. This add-on is built on top of native developer
 tools in Firefox. Firebug is not needed for this add-on.
